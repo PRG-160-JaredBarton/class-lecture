@@ -1,10 +1,7 @@
-var myAge=19;
+var number = 1;
 
-if (myAge < 21) {
+  while (number <= 5) {
+  console.log(number);
 
-document.write ("you can't drink");
-
-} else if (myAge >= 21) {
-
-document.write("you can drink");
+  number++;
 }
