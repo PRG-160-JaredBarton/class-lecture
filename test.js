@@ -1,7 +1,11 @@
-var number = 1;
+function alertStatement(link) {
+  if (link) {
+    alert("A");
+  }
 
-  while (number <= 5) {
-  console.log(number);
-
-  number++;
+  if (link != null) {
+    alert("B");
+  }
 }
+
+alertStatement('http://www.javascriptisfun.com');
