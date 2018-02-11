@@ -1,3 +1,1 @@
-var str = "This is an amazing sentence.";
-var words = str.split(" ");
-console.log(words);
+document.getElementById("myChatter").innerHTML = "This is my first website.";
