@@ -1,23 +1,10 @@
-function test_prime(n)
-{
+var myAge=19;
 
-  if (n===1){
-    document.write ("Not Prime")
-    return false;
-  }
-  else if(n === 2){
-    return true;
-  }else{
-    document.write ("Prime")
-    for(var x = 2; x < n; x++)
-    {
-      if(n % x === 0)
-      {
-        return false;
-      }
-    }
-    return true;
-  }
+if (myAge < 21) {
+
+document.write ("you can't drink");
+
+} else if (myAge >= 21) {
+
+document.write("you can drink");
 }
-
-console.log(test_prime(37));
